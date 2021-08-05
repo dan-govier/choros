@@ -38,7 +38,7 @@
     var nationalBorders = new L.GeoJSON.AJAX("world.geo.json");
     nationalBorders.addTo(mymap)
 
-    functi0on getColor(d) {
+    function getColor(d) {
       return d > 1000000 ? '#800026' :
         d > 100000 ? '#BD0026' :
           d > 10000 ? '#E31A1C' :
