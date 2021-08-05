@@ -1,14 +1,1 @@
-* {
-  margin:0px;
-  padding:0px;
-}
-
-p {
-  display: block;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-}
-
-#mapid { 
-  height: 800px; 
-}
+#mapid {   height: 800px; }
