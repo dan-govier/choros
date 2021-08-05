@@ -5,10 +5,12 @@
 .footer { grid-area: footer; }
 
 .grid-container {
+  position: relative;
+  
+  width: 1280;
+  height: 720;
+
   display: grid;
-  display: flex;
-  align-items:center;
-  justify-content: center;
   grid-template-areas:
     'header header header header header header'
     'menu main main main main right'
@@ -26,5 +28,27 @@
 }
 
 #mapid { 
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  transform: translate(0, 50%);
+}
 
+ 
+
+
+html,
+body { height: 100%;
+}
+.parent {
+height: 200px;
+background: #CCCCCC;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.child {
+background-color: #FFFF00;
+width: 100px;
+height: 100px;
 }
