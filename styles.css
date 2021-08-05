@@ -6,6 +6,9 @@
 
 .grid-container {
   display: grid;
+  display: flex;
+  align-items:center;
+  justify-content: center;
   grid-template-areas:
     'header header header header header header'
     'menu main main main main right'
@@ -22,28 +25,9 @@
   font-size: 20px;
 }
 
-* {
-  margin:0px;
-  padding:0px;
-}
-
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
-}
-
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-}
-
 #mapid { 
   width: 80%;
   height: 80%;
   margin: auto;
   transform: translate(0, 50%);
 }
- 
