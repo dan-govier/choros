@@ -1,1 +1,6 @@
-#mapid {   height: 800px; }
+body {
+  display: flex;
+}
+#mapid {
+  height: 100%;
+}
